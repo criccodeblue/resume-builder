@@ -1,0 +1,8 @@
+@use "style/main" as *;
+
+.resume {
+    flex-grow: 1;
+    background-color: $mud;
+    filter: grayscale(70%);
+    min-height: 100vh;
+}

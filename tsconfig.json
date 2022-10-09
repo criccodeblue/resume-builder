@@ -1,12 +1,15 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "lib": ["dom"],
+    "jsx": "react",
     "rootDir": ".",
-    "outDir": "build"
+    "outDir": "build",
   },
   "include": [
-    "src/**/*.ts",
-    "src/*.ts",
-    "test/**/*.ts"
+    "src/**/*",
+    "global.d.ts",
   ]
 }

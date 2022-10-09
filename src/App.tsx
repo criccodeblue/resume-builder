@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.scss';
+import Resume from './Components/Resume';
+import SidePanel from './Components/SidePanel';
 
-function App() {
+const App = () => {
   return (
-    <div style={{fontSize: '4em'}}>
-      Hello World in Typescript, Resume Builder
+    <div className={styles.mainContainer}>
+      <SidePanel />
+      <Resume />
     </div>
   );
-}
+};
 
 export default App;

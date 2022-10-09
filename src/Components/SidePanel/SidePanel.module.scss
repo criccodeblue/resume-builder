@@ -1,0 +1,24 @@
+@use "style/main" as *;
+
+.sidePanel {
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: $oliveGreen;
+}
+
+.nav {
+    height: 80px;
+    background-color: $oliveGreen;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.sectionList {
+    width: 90%;
+    margin: 0 auto;
+}

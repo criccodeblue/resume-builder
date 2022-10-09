@@ -1,6 +1,6 @@
-[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+# Resume Builder
 
-# Getting Started with Create React App
+[![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
